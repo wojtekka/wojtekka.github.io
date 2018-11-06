@@ -132,14 +132,11 @@ i sprawdzi, czy programowanie przebiegło poprawnie. To wszystko!
 Co dalej?
 ---------
 
-Najlepiej zacząć od lektury
-<a href="http://www.nongnu.org/avr-libc/user-manual/">dokumentacji biblioteki standardowej</a>
-i nie zapomnieć o sekcji
-<a href="http://www.nongnu.org/avr-libc/user-manual/FAQ.html">FAQ</a>, która
+Najlepiej zacząć od lektury [dokumentacji biblioteki standardowej](http://www.nongnu.org/avr-libc/user-manual/)
+i nie zapomnieć o sekcji [FAQ](http://www.nongnu.org/avr-libc/user-manual/FAQ.html), która
 zawiera odpowiedzi na większość podstawowych pytań. Przykładowe aplikacje
-można znaleźć w serwisie <a href="http://www.avrfreaks.net/">AVR Freaks</a>.
-Pytania najlepiej zadawać na grupie dyskusyjnej
-<a href="news:pl.misc.elektronika">pl.misc.elektronika</a>, ale tylko jeśli
-odpowiedzi nie znajdziesz w sieci. Powodzenia!
+można znaleźć w serwisie [AVR Freaks](http://www.avrfreaks.net/)
+Pytania najlepiej zadawać na grupie dyskusyjnej [pl.misc.elektronika](news:pl.misc.elektronika),
+ale tylko jeśli odpowiedzi nie znajdziesz w sieci. Powodzenia!
 
 
