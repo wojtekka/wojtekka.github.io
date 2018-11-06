@@ -45,29 +45,22 @@ Wady
 ----
 
 * Brak wyświetlacza LCD. Przez większość czasu odtwarzacz i tak będzie leżeć w kieszeni albo plecaku, więc z wyświetlacza nie skorzystam. Walkmany nie wyświetlają aktualnego czasu i nikt z tego powodu nie płacze. Tagi ID3 nie są mi potrzebne, bo dobrze wiem, co załadowałem na kartę.
-
 * Brak możliwości wrzucenia plików na kartę. Pamięć użytego procesora jest zbyt mała, żeby zmieścić obsługę USB i zapisu na kartę. Poza tym, kolejny układ i gniazdo USB znacznie zwiększyłyby rozmiar odtwarzacza. W tej chwili najprostsze czytniki kart MMC kosztują mniej niż 50zł. Poza tym, jeśli ktoś ma cyfrowy aparat fotograficzny na karty tego typu, może z niego korzystać do wrzucania plików (ja tak robię).
-
-* Brak możliwości przewijania utworów. Tak jak w komputerowych odtwarzaczach CD, są dwa przyciski: ![Stop](stop.png) zatrzymujący odtwarzanie i wracający na początek listy oraz ![Play/Next](playnext.png) rozpoczynający odtwarzanie lub przechodzący do kolejnego utworu.
+* Brak możliwości przewijania utworów. Tak jak w komputerowych odtwarzaczach CD, są dwa przyciski: ⏹ zatrzymujący odtwarzanie i wracający na początek listy oraz ⏵/⏭ rozpoczynający odtwarzanie lub przechodzący do kolejnego utworu.
 
 Zalety
 ------
 
 * Bardzo prosta budowa. ~~Projektu płytki jeszcze nie ma, ale będzie to płytka jednostronna, którą będzie można wykonać nawet ręcznie.~~ Większość części można dostać w każdym sensownie zaopatrzonym sklepie elektronicznym. Dekoder MP3 kupiłem w [Jelu Handelsbolag](http://www.jelu.se/) w Szwecji jeszcze przed wstąpieniem Polski do Unii Europejskiej (teraz jest droższy ze względu na podatek). Złącze karty MMC w [Cyfronice](http://www.cyfronika.com.pl/). Jeśli w Twoim sklepie nie ma AT90S2313, spróbuj w [Seguro](http://www.seguro.pl/).
-
 * Obsługa systemów plików FAT12 i FAT16, a nie własnego, jak w innych odtwarzaczach MP3 do samodzielnego złożenia. Dlatego pliki można wrzucać na kartę za pomocą dowolnego czytnika, pod dowolnym systemem operacyjnym.
-
 * Oprogramowanie dostępne na licencji GPL.
 
 Szczegóły implementacji
 -----------------------
 
 * Procesor jest taktowany zegarem 6MHz, ponieważ jest to najniższa częstotliwość przy której poprawnie były odtwarzane pliki 128kbps. Jeśli chcesz odtwarzać pliki większej jakości, kosztem większego zużycia prądu, powinieneś użyć szybszego zegara.
-
 * Po uruchomieniu procesor wchodzi w stan uśpienia, dzięki czemu pobiera minimalną ilość energii. Przycisk rozpoczynający odtwarzanie jest podłączony do wejścia przerwania, więc wciśnięcie budzi procesor ze snu i rozpoczynane jest otwarzanie. Przejście do kolejnego utworu jest obsługiwane programowo.  Przycisk zatrzymujący odtwarzanie podłączono do wejścia zerującego procesora, dzięki czemu nie ma konieczności programowej obsługi.
-
 * Ze względu na trudności ze zdobyciem kwarcu 12,288MHz, wykorzystano zwykły kwarc 12MHz. Różnica prędkości odtwarzania około 2% jest praktycznie niezauważalna.
-
 * <span style="color: red;">Ścieżki masy i zasilania w pierwszej wersji płytki są dość cienkie, co powoduje słyszalne zakłócenia. Pomaga połączenie kawałkiem grubego przewodu masy procesora z padem baterii tak jak to widać na zdjęciu prototypu.</span>
 
 Schemat
@@ -137,7 +130,7 @@ it works and at last I have my own MP3 player.</li>
 
 <li>No PC connectivity. MCU's flash memory is too small to fit USB and MMC write support and another chip (USB inteface) and a socket would drastically increase player size. Currently the cheapest MMC card readers cost about $10, so it isn't an issue. Besides, if someone has a digital camera with MMC/SD cards, he already has a MMC reader (like I do.)</li>
 
-<li>No fast-forward or rewind. Like in some CD-ROM drives, there are only two buttons: <img src="stop.png" alt="Stop" width="15" height="16" /> stopping the playback and going back to the beginning of the playlist and <img src="playnext.png" alt="Play/Next" width="32" height="16" /> starting playback or skipping to the next track.</li>
+<li>No fast-forward or rewind. Like in some CD-ROM drives, there are only two buttons: ⏹ stopping the playback and going back to the beginning of the playlist and ⏵/⏭ starting playback or skipping to the next track.</li>
 
 </ul>
 
