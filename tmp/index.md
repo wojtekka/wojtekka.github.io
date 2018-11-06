@@ -59,29 +59,16 @@ Zalety
 
 * Oprogramowanie dostępne na licencji GPL.
 
-<h3>Szczegóły implementacji</h3>
-<ul class="space">
-<li>Procesor jest taktowany zegarem 6MHz, ponieważ jest to najniższa
-częstotliwość przy której poprawnie były odtwarzane pliki 128kbps. Jeśli
-chcesz odtwarzać pliki większej jakości, kosztem większego zużycia prądu,
-powinieneś użyć szybszego zegara.</li>
+Szczegóły implementacji
+-----------------------
 
-<li>Po uruchomieniu procesor wchodzi w stan uśpienia, dzięki czemu pobiera
-minimalną ilość energii. Przycisk rozpoczynający odtwarzanie jest podłączony
-do wejścia przerwania, więc wciśnięcie budzi procesor ze snu i rozpoczynane
-jest otwarzanie. Przejście do kolejnego utworu jest obsługiwane programowo.
-Przycisk zatrzymujący odtwarzanie podłączono do wejścia zerującego procesora,
-dzięki czemu nie ma konieczności programowej obsługi.</li>
+* Procesor jest taktowany zegarem 6MHz, ponieważ jest to najniższa częstotliwość przy której poprawnie były odtwarzane pliki 128kbps. Jeśli chcesz odtwarzać pliki większej jakości, kosztem większego zużycia prądu, powinieneś użyć szybszego zegara.
 
-<li>Ze względu na trudności ze zdobyciem kwarcu 12,288MHz, wykorzystano
-zwykły kwarc 12MHz. Różnica prędkości odtwarzania około 2% jest praktycznie
-niezauważalna.</li>
+* Po uruchomieniu procesor wchodzi w stan uśpienia, dzięki czemu pobiera minimalną ilość energii. Przycisk rozpoczynający odtwarzanie jest podłączony do wejścia przerwania, więc wciśnięcie budzi procesor ze snu i rozpoczynane jest otwarzanie. Przejście do kolejnego utworu jest obsługiwane programowo.  Przycisk zatrzymujący odtwarzanie podłączono do wejścia zerującego procesora, dzięki czemu nie ma konieczności programowej obsługi.
 
-<li style="color: red;">Ścieżki masy i zasilania w pierwszej wersji płytki
-są dość cienkie, co powoduje słyszalne zakłócenia. Pomaga
-połączenie kawałkiem grubego przewodu masy procesora z padem baterii tak jak
-to widać na zdjęciu prototypu.</li>
-</ul>
+* Ze względu na trudności ze zdobyciem kwarcu 12,288MHz, wykorzystano zwykły kwarc 12MHz. Różnica prędkości odtwarzania około 2% jest praktycznie niezauważalna.
+
+* <span style="color: red;">Ścieżki masy i zasilania w pierwszej wersji płytki są dość cienkie, co powoduje słyszalne zakłócenia. Pomaga połączenie kawałkiem grubego przewodu masy procesora z padem baterii tak jak to widać na zdjęciu prototypu.</span>
 
 Schemat
 -------
@@ -215,6 +202,3 @@ prototype image.</li>
 <li><a href="tmp-20050123.zip"><b>tmp-20050123.zip</b></a> (15kB)</li>
 </ul>
 
-<?php } ?>
-
-<?php include("../footer.php"); ?>
