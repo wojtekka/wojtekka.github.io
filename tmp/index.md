@@ -173,8 +173,7 @@ button is polled by software. Stop button is connected to reset input so
 it doesn't have to be checked by software.</li>
 
 <li>Because of troubles with getting 12.288MHz crystal, 12MHz has been used.
-The difference in playback speed is about 2% to it's barely practically
-unnoticable.</li>
+The difference in playback speed is about 2% to it's barely noticable.</li>
 
 <li style="color: red;">Ground and power wires on the first revision of the
 board are are too thin and it causes audible interferences. The workaround
