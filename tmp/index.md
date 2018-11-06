@@ -53,7 +53,7 @@ Wady
 Zalety
 ------
 
-* Bardzo prosta budowa. <span style="text-decoration: line-through;">Projektu płytki jeszcze nie ma, ale będzie to płytka jednostronna, którą będzie można wykonać nawet ręcznie.</span> Większość części można dostać w każdym sensownie zaopatrzonym sklepie elektronicznym. Dekoder MP3 kupiłem w [Jelu Handelsbolag](http://www.jelu.se/) w Szwecji jeszcze przed wstąpieniem Polski do Unii Europejskiej (teraz jest droższy ze względu na podatek). Złącze karty MMC w [Cyfronice](http://www.cyfronika.com.pl/). Jeśli w Twoim sklepie nie ma AT90S2313, spróbuj w [Seguro](http://www.seguro.pl/).
+* Bardzo prosta budowa. ~~Projektu płytki jeszcze nie ma, ale będzie to płytka jednostronna, którą będzie można wykonać nawet ręcznie.~~ Większość części można dostać w każdym sensownie zaopatrzonym sklepie elektronicznym. Dekoder MP3 kupiłem w [Jelu Handelsbolag](http://www.jelu.se/) w Szwecji jeszcze przed wstąpieniem Polski do Unii Europejskiej (teraz jest droższy ze względu na podatek). Złącze karty MMC w [Cyfronice](http://www.cyfronika.com.pl/). Jeśli w Twoim sklepie nie ma AT90S2313, spróbuj w [Seguro](http://www.seguro.pl/).
 
 * Obsługa systemów plików FAT12 i FAT16, a nie własnego, jak w innych odtwarzaczach MP3 do samodzielnego złożenia. Dlatego pliki można wrzucać na kartę za pomocą dowolnego czytnika, pod dowolnym systemem operacyjnym.
 
