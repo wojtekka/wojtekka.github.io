@@ -71,7 +71,7 @@ Schemat
 Płytka
 ------
 
-![Płytka](tmp.pcb.png)
+![Płytka](tmp.brd.png)
 
 Zdjęcia prototypu
 -----------------
@@ -87,11 +87,16 @@ Co potem?
 ---------
 
 * Zrobić sobie czytnik kart MMC, żeby nie musieć przekładać kart w aparacie co chwilę. Ale to już inna bajka.
-
 * Jeśli [Atmel](http://www.atmel.com/) wypuści układ zgodny od strony pinów z 2313, ale z większą pamięcią Flash, pomyśleć co jeszcze można dorzucić.
 
 
-<h3>Project goals</h3>
+
+/tmp - tiny/tani mp3 player
+===========================
+
+Project goals
+-------------
+
 <p>To build small, simple and as cheap as possible portable MP3 player.
 Why buy something when you can do it yourself? Why assemble
 <a href="http://www.yampp.com/">someone else's</a> project when you can have
@@ -99,7 +104,9 @@ your own? By the way, you can learn many useful things. The word ,,tani" in
 the name means ,,cheap'' in Polish.</p>
 <p class="screenshot"><img src="foto1.jpg" alt="[Picture of /tmp]" width="379" height="268" /></p>
 
-<h3>What's new?</h3>
+What's new?
+-----------
+
 <ul class="space">
 <li>2005-03-03: Information about interferences and the workaround.</li>
 <li>2005-01-23: Added implementation details and pictures of the project.</li>
@@ -109,14 +116,18 @@ it works and at last I have my own MP3 player.</li>
 <li>2004-08-06: First English version.</li>
 </ul>
 
-<h3>Hardware</h3>
+Hardware
+--------
+
 <ul class="space">
 <li>MCU: <a href="http://www.atmel.com/dyn/products/product_card.asp?part_id=1993">AT90S2313</a>. It costs about $3 in Poland, it's small, works fine at 3V (even the non-,,L'' version), easy to program with gcc port. Its 15 I/O pins are enough for memory card, MP3 decoder and some buttons. It will handle 128kbps at 6MHz crystal.</li>
 <li>MP3 decoder: <a href="http://www.vlsi.fi/vs1001/vs1001.htm">VS1001K</a>. The most expensive part of the project, but it seems that this is the most popular and the most available decoder chip. Besides, it doesn't require external D/A nor headphone amplifier.</li>
 <li>Flash card: <a href="http://www.mmca.org/">MMC</a>. It can be handles with only 4 I/O pins.</li>
 </ul>
 
-<h3>Software and docs</h3>
+Software and docs
+-----------------
+
 <ul class="space">
 <li>avr-gcc.</li>
 <li>MMC flash card docs from <a href="http://www.sandisk.com/">SanDisk</a> and <a href="http://www.hitachi.com/">Hitachi</a>.</li>
@@ -124,7 +135,9 @@ it works and at last I have my own MP3 player.</li>
 <li>In crisis situations I've look at <a href="http://www.yampp.com/">YAMPP-7</a> source code.</li>
 </ul>
 
-<h3>Cons</h3>
+Cons
+----
+
 <ul class="space">
 <li>No LCD. Most of the time, the player will be in my pocket or backpack, so I won't use it anyway. Walkmans don't show current time and no one complains. I don't need ID3 because I know what I have uploaded to the card.</li>
 
@@ -134,7 +147,9 @@ it works and at last I have my own MP3 player.</li>
 
 </ul>
 
-<h3>Pros</h3>
+Pros
+----
+
 <ul class="space">
 <li>It's very simple. The PCB is about 2"x1". Most of the parts can be bought in any electronics store. I bought a MP3 decoder in <a href="http://www.jelu.se/">Jelu Handelsbolag</a> in Sweden.</li>
 
@@ -143,7 +158,9 @@ it works and at last I have my own MP3 player.</li>
 <li>Its software is available under the terms of GPL.</li>
 </ul>
 
-<h3>Implementation details</h3>
+Implementation details
+----------------------
+
 <ul class="space">
 <li>MCU is run at 6MHz because it's the lowest frequency at which 128kbps
 files are played correctly. If you want to play higher quality files at the
@@ -166,32 +183,23 @@ prototype image.</li>
 
 </ul>
 
-<h3>Schematic</h3>
-<p class="center">
-<img src="tmpschem2.png" width="550" height="282" alt="Schematic" />
-</p>
-<p class="center">
-<a href="tmp.sch">Eagle</a> | <a href="tmpschem.png">PNG</a>
-</p>
+Schematic
+---------
 
-<h3>Board</h3>
-<p class="center">
-<img src="tmppcb2.png" width="549" height="353" alt="Board" />
-</p>
-<p class="center">
-<a href="tmp.brd">Eagle</a> | <a href="tmppcb.png">PNG</a>
-</p>
+![Schematic](tmp.sch.png)
 
-<h3>Pictures of prototype</h3>
-<p class="center">
-<img src="foto2.jpg" width="241" height="182" alt="Picture" />
-<img src="foto3.jpg" width="241" height="182" alt="Picture" />
-</p>
+Board
+-----
 
-<h3 id="pliki">Firmware</h3>
+![Board](tmp.brd.png)
 
-<ul class="space">
-<li><a href="tmp-20040328.zip"><b>tmp-20040328.zip</b></a> (14kB)</li>
-<li><a href="tmp-20050123.zip"><b>tmp-20050123.zip</b></a> (15kB)</li>
-</ul>
+Pictures of prototype
+---------------------
+
+![Picture 1](foto2.jpg) ![Picture 2](foto3.jpg)
+
+Firmware
+--------
+
+Available at [project page](https://github.com/wojtekka/tmp/releases/)
 
