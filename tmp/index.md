@@ -9,3 +9,7 @@ else
 	window.location = "en.html";
 }
 </script>
+
+If you're not redirected automatically proceed to [English version](en.html).
+
+Jeśli nie nastąpiło automatyczne przekierowanie, przejdź do [wersji polskiej](pl.html).
