@@ -13,7 +13,7 @@ skoro można mieć własny od zera? Przy okazji można nauczyć się wielu
 przydatnych rzeczy. I mieć sensowne zajęcie na kilka wieczorów.
 Skąd taka głupia nazwa? Nie mam pojęcia.
 
-![Zdjęcie /tmp](doc/foto1.jpg)
+![Zdjęcie /tmp](foto1.jpg)
 
 Co nowego?
 ----------
