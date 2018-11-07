@@ -1,7 +1,5 @@
-/tmp - tiny/tani mp3 player
-===========================
-
-([English version](en.html))
+/tmp - tiny/tani mp3 player ([🇵🇱](pl.html) [🇬🇧](en.html))
+=============================================================
 
 Cel projektu
 ------------
