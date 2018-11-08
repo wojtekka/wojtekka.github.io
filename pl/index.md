@@ -19,6 +19,8 @@ Strona ta jest miejscem, gdzie umieszczam moje projekty, które mogą okazać si
 * [ydpdict](https://github.com/wojtekka/ydpdict) — interfejs angielsko-polskiego słownika Collinsa
 * [więcej...](https://github.com/wojtekka)
 
+* [Różne](https://gist.github.com/wojtekka)
+
 * [AVR i Linux](../avr/) — jak zacząć przygodę z AVR-ami pod Linuksem
 
 Kontakt

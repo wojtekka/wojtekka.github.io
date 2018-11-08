@@ -14,6 +14,8 @@ This site is primarily in Polish, but for English-speaking visitors, there's a l
 * [/tmp](../tmp/) — tiny/tani mp3 player
 * [more...](https://github.com/wojtekka)
 
+* [Miscellaneous](https://gist.github.com/wojtekka)
+
 Kontakt
 -------
 
