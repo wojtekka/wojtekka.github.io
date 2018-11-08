@@ -113,7 +113,7 @@ trzeba użyć operacji logicznej na wartości rejestru.
 
 Na szczególną uwagę zasługuje pętla opóźniająca. Częstym błędem jest
 używanie funkcji `_delay_us()` i `_delay_ms()` z dużymi
-wartościami opóźnień. Zgodnie z <a href="http://www.nongnu.org/avr-libc/user-manual/group__util__delay.html">dokumentacją</a>, maksymalne wartości to 768 &micro;s na 1 MHz oraz 264,14 ms na 1MHz częstotliwości zegara. Wynika z tego, że na przykład
+wartościami opóźnień. Zgodnie z [dokumentacją](http://www.nongnu.org/avr-libc/user-manual/group__util__delay.html), maksymalne wartości to 768 &micro;s na 1 MHz oraz 264,14 ms na 1MHz częstotliwości zegara. Wynika z tego, że na przykład
 przy kwarcu 10 MHz, maksymalne opóźnienia to 76,8 &micro;s i 26,4 ms. Dla dłuższych
 czasów należy wywoływać w pętli opóźnienia o mniejszej wartości.
 

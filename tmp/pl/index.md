@@ -1,7 +1,7 @@
 /tmp - tiny/tani mp3 player
 ===========================
 
-([🇵🇱](pl.html) [🇬🇧](en.html))
+([🇵🇱](../pl/) [🇬🇧](../en/))
 
 Cel projektu
 ------------
@@ -13,7 +13,7 @@ skoro można mieć własny od zera? Przy okazji można nauczyć się wielu
 przydatnych rzeczy. I mieć sensowne zajęcie na kilka wieczorów.
 Skąd taka głupia nazwa? Nie mam pojęcia.
 
-![Zdjęcie /tmp](foto1.jpg)
+![Zdjęcie /tmp](../foto1.jpg)
 
 Co nowego?
 ----------
@@ -66,17 +66,17 @@ Szczegóły implementacji
 Schemat
 -------
 
-![Schemat](tmp.sch.png)
+![Schemat](../tmp.sch.png)
 
 Płytka
 ------
 
-![Płytka](tmp.brd.png)
+![Płytka](../tmp.brd.png)
 
 Zdjęcia prototypu
 -----------------
 
-![Zdjęcie 1](foto2.jpg) ![Zdjęcie 2](foto3.jpg)
+![Zdjęcie 1](../foto2.jpg) ![Zdjęcie 2](../foto3.jpg)
 
 Firmware
 --------

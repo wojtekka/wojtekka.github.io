@@ -1,15 +1,8 @@
 <script type="text/javascript">
 var lang = navigator.language || navigator.userLanguage;
-if (lang == "pl")
-{
-	window.location = "pl.html";
-}
-else
-{
-	window.location = "en.html";
-}
+window.location = (lang == "pl") ? "pl/" : "en/";
 </script>
 
-If you're not redirected automatically proceed to [English version](en.html).
+If you're not redirected automatically proceed to [English version](en/).
 
-Jeśli nie nastąpiło automatyczne przekierowanie, przejdź do [wersji polskiej](pl.html).
+Jeśli nie nastąpiło automatyczne przekierowanie, przejdź do [wersji polskiej](en/).

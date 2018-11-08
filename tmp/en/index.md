@@ -1,7 +1,7 @@
 /tmp - tiny/tani mp3 player
 ===========================
 
-([🇵🇱](pl.html) [🇬🇧](en.html))
+([🇵🇱](../pl/) [🇬🇧](../en/))
 
 Project goals
 -------------
@@ -12,7 +12,7 @@ Why buy something when you can do it yourself? Why assemble
 your own? By the way, you can learn many useful things. The word _tani_ in
 the name means _cheap_ in Polish.</p>
 
-![Picture of /tmp](foto1.jpg)
+![Picture of /tmp](../foto1.jpg)
 
 What's new?
 -----------
@@ -63,17 +63,17 @@ Implementation details
 Schematic
 ---------
 
-![Schematic](tmp.sch.png)
+![Schematic](../tmp.sch.png)
 
 Board
 -----
 
-![Board](tmp.brd.png)
+![Board](../tmp.brd.png)
 
 Pictures of prototype
 ---------------------
 
-![Picture 1](foto2.jpg) ![Picture 2](foto3.jpg)
+![Picture 1](../foto2.jpg) ![Picture 2](../foto3.jpg)
 
 Firmware
 --------
