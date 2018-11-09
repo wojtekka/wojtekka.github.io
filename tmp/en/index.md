@@ -10,7 +10,7 @@ To build small, simple and as cheap as possible portable MP3 player.
 Why buy something when you can do it yourself? Why assemble
 [someone else's](http://www.yampp.com/) project when you can have
 your own? By the way, you can learn many useful things. The word _tani_ in
-the name means _cheap_ in Polish.</p>
+the name means _cheap_ in Polish.
 
 ![Picture of /tmp](../foto1.jpg)
 

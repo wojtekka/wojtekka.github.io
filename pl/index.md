@@ -8,6 +8,7 @@ Strona ta jest miejscem, gdzie umieszczam moje projekty, które mogą okazać si
 * [6tunnel](https://github.com/wojtekka/6tunnel) -- tunel dla aplikacji, które nie obsługują IPv6
 * [asm51](https://github.com/wojtekka/asm51) -- asembler rodziny 8051
 * [bindprivs](https://github.com/wojtekka/bindprivs) -- przycinamy użytkownikom dostęp do vhostów
+* [BIOS terminal](https://github.com/wojtekka/bios-terminal) -- karta ISA zamienia peceta w bezdyskowy terminal
 * [ekg](http://ekg.chmurka.net) — eksperymentalny klient gadu-gadu
 * [hotfixes](../hotfixes/) — szybkie łatki na niektóre błędy jądra Linuksa
 * [it8712](https://github.com/wojtekka/it8712) — narzędzie do konfiguracji IT8712
